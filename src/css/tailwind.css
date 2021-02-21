@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply inline-block mt-2 mr-4 px-5 py-3 text-white rounded-lg hover:scale-105 transform uppercase tracking-wider font-semibold text-sm sm:text-base;
+  }
+  .btn-primary {
+    @apply bg-brand hover:bg-brand-light active:bg-brand-dark;
+  }
+  .btn-secondary {
+    @apply bg-gray-500 hover:bg-gray-400 active:bg-gray-600;
+  }
+}
